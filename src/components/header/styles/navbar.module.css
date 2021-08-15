@@ -1,5 +1,5 @@
 .container {
-    position: absolute;
+    position: fixed;
     width: 100%;
     top: 0;
     left: 0;
@@ -13,6 +13,8 @@
     width: 100%;
     margin: auto;
     max-width: 1150px;
+    background: rgba(255, 255, 255, 0.8);
+    border-bottom: 1px solid rgba(225, 225, 225, 0.5);
 }
 
 .LogoLink {
