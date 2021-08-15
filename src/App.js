@@ -1,12 +1,12 @@
 import React from "react";
 
 // Custom Components
-import NavBar from "./components/navbar/NavBar";
+import Header from "./components/header/Header";
 
 function App() {
   return (
     <div className="App">
-      <NavBar />
+      <Header />
     </div>
   );
 }

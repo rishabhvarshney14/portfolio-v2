@@ -1,0 +1,53 @@
+.container {
+    padding: 120px 0px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    cursor: default;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+.display {
+    font-family: 'proxima-nova';
+    font-weight: 500;
+    font-size: 56px;
+    color: #333333;
+    line-height: 1.5;
+}
+
+.name {
+    background-image: linear-gradient(45deg, #B993D6, #8CA6DB);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.summary {
+    font-size: 21px;
+    color: #525252
+}
