@@ -1,0 +1,31 @@
+.container {
+    padding: 25px 15px;
+    max-width: 1050px;
+    margin: auto;
+    text-align: center;
+}
+
+.contactLine {
+    display: flex;
+    max-width: 300px;
+    margin: auto;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.icons {
+    width: 120px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons img {
+    height: 25px;
+    width: 25px;
+}
+
+.container p {
+    font-size: 16px;
+    font-weight: 500;
+}
