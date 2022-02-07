@@ -7,7 +7,8 @@ const ProjectList = ({data}) => {
   return (
     <div className={styles.container}>
       {data.map(item => (
-        <ProjectItem 
+        <ProjectItem
+          key={item.name} 
           name={item.name} 
           githubLink={item.github} 
           webLink={item?.web} 
