@@ -1,21 +1,18 @@
 import React from "react";
 import ProjectItem from "./ProjectItem";
-
 // Styles
 import styles from "./styles/projectList.module.css";
 
-const ProjectList = () => {
+const ProjectList = ({data}) => {
   return (
     <div className={styles.container}>
-      <ProjectItem />
-      <ProjectItem />
-      <ProjectItem />
-      <ProjectItem />
-      <ProjectItem />
-      <ProjectItem />
-      <ProjectItem />
-      <ProjectItem />
-      <ProjectItem />
+      {data.map(item => (
+        <ProjectItem 
+          name={item.name} 
+          githubLink={item.github} 
+          webLink={item?.web} 
+          imgLink={item.img} />
+      ))}
     </div>
   );
 };

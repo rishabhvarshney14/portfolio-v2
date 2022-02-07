@@ -1,10 +1,10 @@
 .container {
-    height: 290px;
+    height: 320px;
     width: 250px;
     background-color: #e1dfe8;
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.45) 1.95px 1.95px 2.6px;
-    cursor: pointer;
+    /* cursor: pointer; */
     margin-left: 30px;
     margin-bottom: 30px;
 }

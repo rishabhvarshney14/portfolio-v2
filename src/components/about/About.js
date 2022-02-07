@@ -8,7 +8,7 @@ import styles from "./styles/about.module.css";
 
 const About = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="abt-me">
       <div className={styles.imgContainer}>
         <img className={styles.profileImg} src={ProfileImage} alt="profile" />
       </div>

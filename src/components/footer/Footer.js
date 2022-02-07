@@ -10,19 +10,19 @@ import styles from "./styles/footer.module.css";
 
 const Footer = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="contact-me">
       <hr />
       <div className={styles.contactLine}>
         <p>Contact Me / Hire Me : </p>
         <div className={styles.icons}>
-          <a href="/">
-            <img src={githubIcon} />
+          <a href="https://github.com/rishabhvarshney14" target="_blank" rel="noopener noreferrer"> 
+            <img src={githubIcon} alt="github-icon" />
           </a>
-          <a href="/">
-            <img src={linkedinIcon} />
+          <a href="https://www.linkedin.com/in/rishabhvarshney14/" target="_blank" rel="noopener noreferrer">
+            <img src={linkedinIcon} alt="linkedin-icon" />
           </a>
-          <a href="/">
-            <img src={emailIcon} />
+          <a href="mailto:rishabhvarshney14@gmail.com">
+            <img src={emailIcon} alt="mail-icon" />
           </a>
         </div>
       </div>

@@ -7,25 +7,26 @@ import styles from "./styles/projectItem.module.css";
 import github from "../../data/icons/github.png";
 import web from "../../data/icons/globe.png";
 
-const ProjectItem = () => {
+const ProjectItem = ({imgLink, name, githubLink, webLink}) => {
   return (
     <div>
       <div className={styles.container}>
         <div className={styles.imageContainer}>
           <img
             className={styles.image}
-            src="https://gsurma.github.io/images/icons/rocks_icon_web.png"
+            src={imgLink}
+            alt="project-img"
           />
         </div>
         <div className={styles.textField}>
-          <p>Project Name</p>
+          <p>{name}</p>
           <div className={styles.icons}>
-            <a href="/">
-              <img src={github} />
+            <a href={githubLink}>
+              <img src={github} alt="github-link" />
             </a>
-            <a href="/">
-              <img src={web} />
-            </a>
+            {webLink && <a  href={webLink}>
+              <img src={web} alt="web-link"/>
+            </a>}
           </div>
         </div>
       </div>

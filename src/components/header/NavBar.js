@@ -12,15 +12,9 @@ const NavBar = () => {
         </a>
         <div className={styles.collapse}>
           <ul className={styles.navItems}>
-            <li className={styles.navItemActive}>
-              <a className={styles.navItemLink} href="index.html">
-                Projects
-              </a>
-            </li>
-
             <li className={styles.navItem}>
-              <a className={styles.navItemLink} href="#contact-me">
-                Contact
+              <a className={styles.navItemLink} href="#projects">
+                Projects
               </a>
             </li>
 
@@ -31,7 +25,13 @@ const NavBar = () => {
             </li>
 
             <li className={styles.navItem}>
-              <a className={styles.navItemLink} href="index.html">
+              <a className={styles.navItemLink} href="#contact-me">
+                Contact
+              </a>
+            </li>
+
+            <li className={styles.navItem}>
+              <a className={styles.navItemLink} href='https://drive.google.com/file/d/1tYdGWgt1q3mAex8UaYFFGxB2Ho28B58q/view?usp=sharing' target="_blank" rel="noopener noreferrer">
                 Resume
               </a>
             </li>
